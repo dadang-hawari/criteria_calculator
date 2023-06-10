@@ -1,0 +1,95 @@
+body{
+    zoom: 120%;
+    text-align: center;
+    background: #51E2F5;
+    font-family: "Poppins";
+    margin: auto;
+    
+}
+
+table {
+    table-layout: fixed;
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,th{
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: #00ff66;
+}
+
+
+input{
+    font-family: "Fira Code";
+    text-align: center;
+    font-size: 100%;
+    border-color: #000000;
+    border-width: 2px;
+    outline: none;
+    width: 50%;
+    
+}
+
+input:hover{
+    font-size: 100%;
+    outline: none;
+}
+
+br{
+    display: block;
+    margin: 8px;
+    content: " ";
+}
+
+#br{
+    margin:1px;
+    display: block;
+    content: " ";
+}
+
+.header{
+    width: 100%;
+    background-color: #00ff66;
+
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #00ff66;
+}
+
+.hasil{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90px;
+    border-width: 2px;
+    background-color: white ;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.hasil:hover{
+    transition-duration: 0.2s;
+    background-color: #00ff66;
+
+}
+
+.testo{
+    text-align: center;
+    transition: 0.7s ease-in-out;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.testo:hover{
+
+    cursor:pointer;
+    color:green ;
+    
+}
